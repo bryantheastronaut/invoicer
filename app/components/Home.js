@@ -8,8 +8,11 @@ export default class Home extends Component {
     return (
       <div>
         <div className={styles.container}>
+          <Link to="/">
+            <i className="fa fa-arrow-left fa-3x" />
+          </Link>
           <div className={styles.nav}>
-            <h2>Home</h2>
+            <h2>Invoicer</h2>
             <Link to="/counter">to Counter</Link>
           </div>
           <div className={styles.form}>

@@ -8,11 +8,15 @@ body {
   position: relative;
   color: white;
   height: 100vh;
-  background-color: #1D1D26;
+  background-color: #516367;
   background-image: url("images/img.png");
   background-size: cover;
   font-family: 'avenir', Arial, Helvetica, Helvetica Neue;
   overflow-y: hidden;
+}
+
+h1 {
+  font-size: 3.5rem;
 }
 
 h2 {
@@ -24,7 +28,7 @@ h2 {
 }
 
 p {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 li {
