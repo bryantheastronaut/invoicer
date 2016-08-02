@@ -5,9 +5,9 @@ let template;
 let mainWindow = null;
 
 
-if (process.env.NODE_ENV === 'development') {
-  require('electron-debug')(); // eslint-disable-line global-require
-}
+//if (process.env.NODE_ENV === 'development') {
+//  require('electron-debug')(); // eslint-disable-line global-require
+//}
 
 
 app.on('window-all-closed', () => {

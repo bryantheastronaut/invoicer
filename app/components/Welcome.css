@@ -1,27 +1,51 @@
 .container {
   position: absolute;
-  top: 10vh;
-  left: 10vw;
-  width: 80vw;
-  height: 80vh;
+  top: 5vh;
+  left: 5vw;
+  width: 90vw;
+  height: 90vh;
   text-align: center;
+  font-family:'BenchNine';
+}
+
+h1 {
+  font-size: 9rem;
+  letter-spacing:-.2rem;
+  line-height:3rem;
 }
 
 .signUp {
   font-size: 1.5rem;
-  height: 10vh;
+  text-transform:uppercase;
+  min-height: 10vh;
   width:40vw;
+  min-width:200px;
   background-color: #67c658;
+  font-family:'BenchNine';
+  letter-spacing:.025rem;
+  font-size:2.75rem;
+  font-weight:600;
   border-radius: 35px;
+  border:2px solid white;
   color:white;
 }
 
 .signIn {
   font-size: 1.5rem;
-  height: 10vh;
+  min-height: 10vh;
   width:40vw;
+  min-width: 200px;
   border-radius: 35px;
   background-color: #3c4bd0;
+  font-family:'BenchNine';
+  letter-spacing:.025rem;
+  font-size:2.75rem;
+  font-weight:600;
   color:white;
-  border:2px solid white;
+  text-transform:uppercase;
+  border: 2px solid white;
+}
+
+button:focus {
+  outline:0;
 }

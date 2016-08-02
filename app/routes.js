@@ -5,11 +5,14 @@ import HomePage from './containers/HomePage';
 import CounterPage from './containers/CounterPage';
 import Welcome from './components/Welcome';
 
+import Clients from './containers/Clients';
+import Navbar from './components/Navbar';
+
 
 export default (
   <Route path="/" component={App}>
     <IndexRoute component={Welcome} />
-    <Route path="/home" component={HomePage} />
-    <Route path="/counter" component={CounterPage} />
+    <Route path="/clients" component={Clients} />
+    <Route path="/navbar" component={Navbar} />
   </Route>
 );
